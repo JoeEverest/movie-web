@@ -1,8 +1,4 @@
-import {
-  EmbedOutput,
-  NotFoundError,
-  SourcererOutput,
-} from "@movie-web/providers";
+import { EmbedOutput, NotFoundError, SourcererOutput } from "chesko-movie-web";
 import { useAsyncFn } from "react-use";
 
 import { isExtensionActiveCached } from "@/backend/extension/messaging";

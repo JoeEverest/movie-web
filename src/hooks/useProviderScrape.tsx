@@ -1,8 +1,4 @@
-import {
-  FullScraperEvents,
-  RunOutput,
-  ScrapeMedia,
-} from "@movie-web/providers";
+import { FullScraperEvents, RunOutput, ScrapeMedia } from "chesko-movie-web";
 import { RefObject, useCallback, useEffect, useRef, useState } from "react";
 
 import { isExtensionActiveCached } from "@/backend/extension/messaging";
